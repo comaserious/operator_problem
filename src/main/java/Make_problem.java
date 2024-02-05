@@ -42,38 +42,35 @@ public class Make_problem {
         int class1 = 900000;
         int class2 = 300000;
 
+        int point1 = 50000;
+        int point2 = 10000;
+
         System.out.println("========================================================Class1==============");
 
 
-        System.out.println("class1 고객수 : " + (김소연 >= class1 ));
-        System.out.println("class1 고객수 : " + (감자희 >= class1 ));
-        System.out.println("class1 고객수 : " + (유자겸 >= class1 ));
-        System.out.println("class1 고객수 : " + (홍길동 >= class1 ));
-        System.out.println("class1 고객수 : " + (고길동 >= class1 ));
-        System.out.println("class1 고객수 : " + (허윤회 >= class1 ));
-        System.out.println("class1 고객수 : " + (이주헌 >= class1 ));
-        System.out.println("class1 고객수 : " + (김진규 >= class1 ));
-        System.out.println("class1 고객수 : " + (홍명보 >= class1 ));
-        System.out.println("class1 고객수 : " + (이임생 >= class1 ));
-        System.out.println("class1 고객수 : " + (이천수 >= class1 ));
-        System.out.println("class1 고객수 : " + (박항서 >= class1 ));
-        System.out.println("class1 고객수 : " + (조원희 >= class1 ));
+        int class1Custom=(((김소연 >= class1 )?1:0)+((감자희 >= class1 )?1:0)+((유자겸 >= class1 )?1:0)+
+                ((홍길동 >= class1 )?1:0)+((고길동 >= class1 )?1:0)+((허윤회 >= class1 )?1:0)+
+                ((이주헌 >= class1 )?1:0)+((김진규 >= class1 )?1:0)+((홍명보 >= class1 )?1:0+((이임생 >= class1 )?1:0)+
+                ((이천수 >= class1 )?1:0)+((박항서 >= class1 )?1:0)+((조원희 >= class1 )?1:0)));
+
+        System.out.println("class1 고객의 수 = " + class1Custom);
+        System.out.println("class1 cupon 금액 ="+class1Custom*point1);
+
 
         System.out.println("===================================================Class2======================");
 
-        System.out.println("Class2 고객수 : "+ (김소연<class1)&&(김소연>=class2));
-        System.out.println("Class2 고객수 : "+ (감자희<class1)&&(감자희>=class2));
-        System.out.println("Class2 고객수 : "+ (유자겸<class1)&&(유자겸>=class2));
-        System.out.println("Class2 고객수 : "+ (홍길동<class1)&&(홍길동>=class2));
-        System.out.println("Class2 고객수 : "+ (고길동<class1)&&(고길동>=class2));
-        System.out.println("Class2 고객수 : "+ (허윤회<class1)&&(허윤회>=class2));
-        System.out.println("Class2 고객수 : "+ (이주헌<class1)&&(이주헌>=class2));
-        System.out.println("Class2 고객수 : "+ (김진규<class1)&&(김진규>=class2));
-        System.out.println("Class2 고객수 : "+ (홍명보<class1)&&(홍명보>=class2));
-        System.out.println("Class2 고객수 : "+ (이임생<class1)&&(이임생>=class2));
-        System.out.println("Class2 고객수 : "+ (이천수<class1)&&(이천수>=class2));
-        System.out.println("Class2 고객수 : "+ (박항서<class1)&&(박항서>=class2));
-        System.out.println("Class2 고객수 : "+ (조원희<class1)&&(조원희>=class2));
+      int class2Custom=(((김소연<class1 && 김소연>=class2)? 1:0)+((감자희<class1&&감자희>=class2)?1:0)+
+              ((유자겸<class1&&유자겸>=class2)?1:0)+((홍길동<class1&&홍길동>=class2)?1:0)
+              +((고길동<class1&&고길동>=class2)?1:0)+((허윤회<class1&&허윤회>=class2)?1:0)+
+              ((이주헌<class1&&이주헌>=class2)?1:0)+((김진규<class1&&김진규>=class2)?1:0)+
+              ((홍명보<class1&&홍명보>=class2)?1:0)+((이임생<class1&&이임생>=class2)?1:0)+
+              ((이천수<class1&&이천수>=class2)?1:0)+((박항서<class1&&박항서>=class2)?1:0)+((조원희<class1&&조원희>=class2)?1:0));
+
+
+        System.out.println("class2 고객의 수 = " + class2Custom);
+        System.out.println("class2 cupon 금액 =" + class2Custom*point2);
+
+
 
 
 
