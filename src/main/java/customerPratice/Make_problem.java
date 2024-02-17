@@ -1,3 +1,5 @@
+package customerPratice;
+
 public class Make_problem {
 
     public static void main(String[] args) {
@@ -61,19 +63,19 @@ public class Make_problem {
 
         System.out.println("===================================================Class2======================");
 
-        System.out.println("Class2 고객수 : "+ (김소연<class1)&&(김소연>=class2));
-        System.out.println("Class2 고객수 : "+ (감자희<class1)&&(감자희>=class2));
-        System.out.println("Class2 고객수 : "+ (유자겸<class1)&&(유자겸>=class2));
-        System.out.println("Class2 고객수 : "+ (홍길동<class1)&&(홍길동>=class2));
-        System.out.println("Class2 고객수 : "+ (고길동<class1)&&(고길동>=class2));
-        System.out.println("Class2 고객수 : "+ (허윤회<class1)&&(허윤회>=class2));
-        System.out.println("Class2 고객수 : "+ (이주헌<class1)&&(이주헌>=class2));
-        System.out.println("Class2 고객수 : "+ (김진규<class1)&&(김진규>=class2));
-        System.out.println("Class2 고객수 : "+ (홍명보<class1)&&(홍명보>=class2));
-        System.out.println("Class2 고객수 : "+ (이임생<class1)&&(이임생>=class2));
-        System.out.println("Class2 고객수 : "+ (이천수<class1)&&(이천수>=class2));
-        System.out.println("Class2 고객수 : "+ (박항서<class1)&&(박항서>=class2));
-        System.out.println("Class2 고객수 : "+ (조원희<class1)&&(조원희>=class2));
+        System.out.println("Class2 고객수 : "+ ((김소연<class1)&&(김소연>=class2)));
+        System.out.println("Class2 고객수 : "+ ((감자희<class1)&&(감자희>=class2)));
+        System.out.println("Class2 고객수 : "+ ((유자겸<class1)&&(유자겸>=class2)));
+        System.out.println("Class2 고객수 : "+ ((홍길동<class1)&&(홍길동>=class2)));
+        System.out.println("Class2 고객수 : "+ ((고길동<class1)&&(고길동>=class2)));
+        System.out.println("Class2 고객수 : "+ ((허윤회<class1)&&(허윤회>=class2)));
+        System.out.println("Class2 고객수 : "+ ((이주헌<class1)&&(이주헌>=class2)));
+        System.out.println("Class2 고객수 : "+ ((김진규<class1)&&(김진규>=class2)));
+        System.out.println("Class2 고객수 : "+ ((홍명보<class1)&&(홍명보>=class2)));
+        System.out.println("Class2 고객수 : "+ ((이임생<class1)&&(이임생>=class2)));
+        System.out.println("Class2 고객수 : "+ ((이천수<class1)&&(이천수>=class2)));
+        System.out.println("Class2 고객수 : "+ ((박항서<class1)&&(박항서>=class2)));
+        System.out.println("Class2 고객수 : "+ ((조원희<class1)&&(조원희>=class2)));
 
 
 
